@@ -1,4 +1,7 @@
 {
   "name": "freebits/zone.cleaning",
-  "type": "project"
+  "type": "project",
+  "require": {
+    "twig/twig": "^3.4"
+  }
 }
