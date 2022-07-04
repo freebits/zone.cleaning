@@ -21,6 +21,15 @@
     background-repeat: no-repeat;
 }
 
+.jumbo-hero-heading-less {
+    font-size:0.6em;
+    letter-spacing:0px;
+}
+
+.jumbo-hero-heading-more {
+    font-size:1.62em;
+}
+
 .jumbo-hero-textarea {
     padding-top:22vh;
     
@@ -31,7 +40,7 @@
     font-weight:1000;
     color:#000;
     text-shadow:2px 2px 20px rgba(0,0,0,0);
-
+    line-height:1em;
 }
 
 .jumbo-hero-tagline {
@@ -179,6 +188,29 @@
     width:100%;
     object-fit:auto;
     margin-top:-10vh;
+}
+
+.jumbo-hero-aux {
+    background-image:url('/lib/img/bg-room2-half3.webp');
+}
+
+.aux-textarea {
+    padding-right:7vh;
+
+}
+
+.aux-textarea-heading {
+    font-weight:1000;
+    margin-top:13vh;
+}
+
+.aux-textarea-image {
+    height:80vh;
+    margin-top:-20vh;
+    object-fit:cover;
+    width:100%;
+    border-radius:10px;
+    box-shadow:0px 0px 50px rgba(0,0,0,0.4);
 }
 
 .footer {
